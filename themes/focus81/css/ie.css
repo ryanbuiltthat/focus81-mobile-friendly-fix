@@ -1,0 +1,10 @@
+#container,
+#banner a,
+#quick-links,
+#go-green,
+#current-projects h4,
+#current-projects ul {
+	position:relative;
+	behavior:url('/wp-content/themes/focus81/css/pie/PIE.htc');}
+
+#banner a {border-radius:20px 20px 0 0;}

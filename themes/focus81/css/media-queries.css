@@ -1,0 +1,195 @@
+/**
+    Using Bootstraps (v3) default breakpoints here for generic formatting.
+**/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    body {
+        padding-top: 0;
+        font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif
+    }
+
+    body.home #copy p {
+        font-weight: 400;
+    }
+
+    body.home #copy h1 {
+        font-size: 1.53rem;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.24;
+    }
+
+    #container, .container {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #main-nav {
+        display: none;
+        visibility: hidden;
+    }
+
+    .mobile-nav-divider {
+        display: block;
+        visibility: visible;
+        height: 2em;
+        background: #333;
+        color: #fff;
+        padding: 0.75em 0.5em;
+    }
+
+    .menu-toggle {
+        padding: 0.5em;
+    }
+
+    #banner {
+
+    }
+
+    #banner a {
+        display: block;
+        height: 150px;
+        background-image: url('../img/bg-banner.jpg');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 145%;
+    }
+
+    #copy {
+        width: 100%;
+        line-height: 19px;
+    }
+
+    #sidebar {
+        width: 100%;
+    }
+
+    ul li {
+        margin-bottom: 8px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer ul {
+        list-style: none;
+        width: 80%;
+        display: inline;
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        box-sizing: content-box;
+        margin: 1em auto;
+    }
+
+    footer ul li {
+        display: block;
+        padding: 0;
+        border-left: none;
+        margin: 8px;
+        text-align: left;
+        float: left;
+        font-size: 80%;
+        width: 45%;
+    }
+
+    footer p {
+        font-size: 11px;
+        display: inline-block;
+        margin-top: 3em;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    body {
+        padding: 31px 0;
+        font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    #banner a {
+        display: block;
+        height: 219px;
+        background: url('../img/bg-banner.jpg') 0 0 no-repeat;
+    }
+
+    .mobile-nav-divider {
+        display: none;
+        visibility: hidden;
+    }
+
+    #main-nav {
+        display: block;
+        visibility: visible;
+    }
+
+    .menu-toggle {
+        display: none;
+        visibility: hidden;
+    }
+
+    #container {
+        padding-bottom: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 0 6px 10px 2px rgba(0, 0, 0, 0.50);
+        overflow: hidden;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #copy {
+        width: 60%;
+    }
+
+    #sidebar {
+        width: 30%;
+    }
+
+    footer {
+        padding-top: 20px;
+    }
+
+    footer ul {
+        list-style: none;
+        text-align: center;
+    }
+
+    footer ul li {
+        display: inline;
+        padding: 0 6px;
+        border-left: 1px solid #fff;
+        margin: 0;
+        margin-bottom: 8px;
+        text-align: -webkit-match-parent;
+        float: none;
+        font-size: 90%;
+        width: auto;
+    }
+
+    footer p {
+        font-size: 11px;
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

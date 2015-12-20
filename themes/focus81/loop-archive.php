@@ -1,0 +1,1 @@
+<?include(get_stylesheet_directory().'/loop-listing-template.php');?>
